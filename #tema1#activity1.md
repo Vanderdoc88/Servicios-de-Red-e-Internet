@@ -120,3 +120,87 @@ Cambiamos los ordenes de index.php e index.html, y guardamos el archivo y nos sa
 <img width="822" height="145" alt="image" src="https://github.com/user-attachments/assets/e7dfe119-699c-4808-8a2a-292ce6e254fb" />
 
 Luego recargamos el apache y ya se nos aplica la nueva prioridad
+
+## Paso 5: Probar el procesamiento de PHP en su servidor web
+
+<img width="661" height="86" alt="image" src="https://github.com/user-attachments/assets/cd1b1d22-c53e-4bc1-965f-6f448e384d96" />
+
+Vamos a crear un archivo php dentro de la siguiente ruta
+
+<img width="751" height="123" alt="image" src="https://github.com/user-attachments/assets/a81ef425-3849-4353-bc0c-fd335b070e87" />
+
+Dentro del archivo, ponemos lo siguiente, y guardamos y nos salimos
+
+<img width="1456" height="691" alt="image" src="https://github.com/user-attachments/assets/2f8cc637-ebe8-4a79-afa3-0f9a95480daf" />
+
+En el navegador escribimos la ip de nuestro servidor y el nombre del archivo creado anteriormente, y nos dirigirá a la siguiente página web
+
+<img width="661" height="111" alt="image" src="https://github.com/user-attachments/assets/9268f870-cfd0-465c-b608-e13532c7c662" />
+
+Luego podemos borrar el archivo, ya que puede contener información delicada
+
+## Paso 6: Probar la conexión con la base de datos desde PHP
+
+<img width="710" height="246" alt="image" src="https://github.com/user-attachments/assets/6df0ca0a-4eaa-44e4-899b-1f27e6d4e898" />
+
+Comenzamos estableciendo conexión con la consola SQL
+
+<img width="677" height="293" alt="image" src="https://github.com/user-attachments/assets/1719223f-e782-40d4-bc03-de2492c8a7b5" />
+
+Creamos una base de datos
+
+<img width="476" height="222" alt="image" src="https://github.com/user-attachments/assets/59c9c8ba-d0fb-4e36-b945-b03e4d20e5a3" />
+
+Creamos un usuario y una contraseña segura
+
+<img width="436" height="68" alt="image" src="https://github.com/user-attachments/assets/d42f087a-eb04-48f0-bb39-1d70c46ad4a5" />
+
+Le damos privilegios al usuario creado sobre nuestra base de datos creada
+
+<img width="267" height="64" alt="image" src="https://github.com/user-attachments/assets/d6d2cc79-5ddc-4ad7-9638-4a08130e3602" />
+
+Y recargamos la tabla
+
+<img width="394" height="56" alt="image" src="https://github.com/user-attachments/assets/4e626da8-3b77-49c9-8723-82e8f4dfdfa7" />
+
+Y nos salimos de la base de datos
+
+<img width="742" height="262" alt="image" src="https://github.com/user-attachments/assets/c3d4e440-08d8-46f5-85a1-7c192f8bb891" />
+
+Luego, podemos comprobar que tenemos acceso a SQL con el usuario y contraseña creados
+
+<img width="263" height="168" alt="image" src="https://github.com/user-attachments/assets/3a664789-54de-43e2-bdfa-99d849dc9066" />
+
+Y con el siguiente comando, podemos ver las bases de datos creadas
+
+<img width="298" height="114" alt="image" src="https://github.com/user-attachments/assets/6d9b0211-bb23-409b-96b5-5511681511ce" />
+
+Vamos a crear una tabla de prueba con la siguiente instrucción
+
+<img width="543" height="64" alt="image" src="https://github.com/user-attachments/assets/e1610608-bf10-4408-9de7-bc3df470018b" />
+
+Insertamos algunos datos en la tabla de prueba
+
+<img width="333" height="136" alt="image" src="https://github.com/user-attachments/assets/905183ec-59ff-4d16-92a5-86da4de936a9" />
+
+Y para confirmar que todo se guardo correctamente, ejecutamos lo siguiente (podemos ver que esta todo en orden)
+
+<img width="911" height="574" alt="image" src="https://github.com/user-attachments/assets/3e2a6904-d428-4018-beac-5cf89744ba8d" />
+
+Abandonamos la consola sql
+
+<img width="658" height="90" alt="image" src="https://github.com/user-attachments/assets/ec07078d-3d7d-4273-a274-37f53d8ba37e" />
+
+Vamos a crear un archivo PHP en la siguiente ruta
+
+<img width="700" height="321" alt="image" src="https://github.com/user-attachments/assets/d56360dd-a17b-4a65-b39e-00bbd8bd925d" />
+
+Copiamos el siguiente contenido dentro del archivo, luego lo guardamos y nos salimos de el
+
+<img width="437" height="150" alt="image" src="https://github.com/user-attachments/assets/5908d629-7338-4ccf-9566-5f93aabf0d41" />
+
+Si ponemos lo siguiente en el navegador, ya tenemos acceso al contenido del archivo PHP, y podemos establecer conexión con el servidor PHP
+
+## Conclusión
+
+En esta guía, creamos una base flexible para presentar sitios web y aplicaciones PHP a sus visitantes usando Apache como servidor web y MySQL como sistema de base de datos
