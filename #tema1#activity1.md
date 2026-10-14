@@ -201,6 +201,10 @@ Copiamos el siguiente contenido dentro del archivo, luego lo guardamos y nos sal
 
 Si ponemos lo siguiente en el navegador, ya tenemos acceso al contenido del archivo PHP, y podemos establecer conexión con el servidor PHP
 
+<img width="1069" height="311" alt="image" src="https://github.com/user-attachments/assets/de73649b-ff75-48a8-bf35-ed41d633d2de" />
+
+Ya podemos Habilitar nuevamente el Virtual host por defecto, Deshabilitar al Virtual host “your-domain" y Reiniciar Apache
+
 ## Conclusión
 
 En esta guía, creamos una base flexible para presentar sitios web y aplicaciones PHP a sus visitantes usando Apache como servidor web y MySQL como sistema de base de datos
