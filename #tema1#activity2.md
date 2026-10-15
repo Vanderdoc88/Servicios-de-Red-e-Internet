@@ -45,20 +45,52 @@ Añadimos esta línea en el mismo archivo del ejercicio 3
 
 Nos volvemos a meter en la página del dominio, pulsamos la tecla F12 y buscamos que contenga Apache
 	
-6. Crea un directorio “prueba” y otro directorio “prueba2”. Incluye un par de páginas en cada una de ellas.
+5. Crea un directorio “prueba” y otro directorio “prueba2”. Incluye un par de páginas en cada una de ellas.
+<img width="793" height="132" alt="image" src="https://github.com/user-attachments/assets/36f3742c-f353-4b3e-aaf9-e5399e467243" />
+<img width="606" height="114" alt="image" src="https://github.com/user-attachments/assets/a0d5c15f-2455-4fa9-8d3f-a1d242bf44a6" />
 	
-7. Redirecciona el contenido de la carpeta “prueba” hacia “prueba2”
+6. Redirecciona el contenido de la carpeta “prueba” hacia “prueba2”
+
+
 	
-8. Es posible redireccionar tan solo una página en lugar de toda la carpeta. Pruébalo.
+7. Es posible redireccionar tan solo una página en lugar de toda la carpeta. Pruébalo.
 	
-9. Usa la directiva userdir
+8. Usa la directiva userdir
+
+<img width="592" height="131" alt="image" src="https://github.com/user-attachments/assets/68981483-9de6-4066-ab4b-b55daaa028ad" />
+
+La utilizamos y reiniciamos apache con el comando de systemctl
+
+<img width="684" height="23" alt="image" src="https://github.com/user-attachments/assets/02f77e85-02fb-44f1-a066-a7e2745ed1d6" />
+
+Creamos el siguiente directorio
+
+<img width="665" height="42" alt="image" src="https://github.com/user-attachments/assets/e9233516-d28f-4fc2-b931-845a5d9a6d87" />
+
+Y dentro del directorio, creamos el siguiente archivo
+
+<img width="867" height="292" alt="image" src="https://github.com/user-attachments/assets/e9df92d6-5c5c-485d-aabd-3cd8eb7021b4" />
+
+Dentro del archivo, creamos una pagina en html, como quieras, lo guardamos y nos salimos
+
+<img width="1013" height="82" alt="image" src="https://github.com/user-attachments/assets/c07174ad-c10f-41ce-92c4-356386345535" />
+
+Comprobamos que no haya errores de sintaxis
+
+<img width="576" height="36" alt="image" src="https://github.com/user-attachments/assets/79ed14e1-a721-4c69-848d-28b2385e0559" />
+
+Reiniciamos el servicio
+
+<img width="639" height="34" alt="image" src="https://github.com/user-attachments/assets/2a9bbd93-9d5a-4497-9ad9-31bbb83806af" />
+
+Y le damos permisos al usuario
+
+9. Usa la directiva alias para redireccionar a una carpeta dentro del directorio de usuario.
 	
-10. Usa la directiva alias para redireccionar a una carpeta dentro del directorio de usuario.
-	
-11. ¿Para qué sirve la directiva Options y dónde aparece. Comprueba si apache indexa los directorios. Si es así, ¿cómo lo desactivamos?
+10. ¿Para qué sirve la directiva Options y dónde aparece. Comprueba si apache indexa los directorios. Si es así, ¿cómo lo desactivamos?
 
 # Actividad 2.2
 ## Trabajando con scripts
-1. Crea un script que añada un puerto de escucha en el fichero de configuración de Apache. El puerto se recibirá como parámetro en la llamada y se comprobará que no esté ya presente en el fichero de configuración.
+1. Crea un script que añada un puerto de escucha en el fichero de configuración de Apache. El puerto se recibirá como parámetro en la llamada y se comprobará que no esté ya presente en el fichero de configuración
 2. Crea un script que añada un nombre de dominio y una ip al fichero hosts. Debemos comprobar que no existe dicho dominio en el fichero hosts
 3. Crea un script que nos permita crear una página web con un título, una cabecera y un mensaje
