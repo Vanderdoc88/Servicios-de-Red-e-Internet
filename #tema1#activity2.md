@@ -50,10 +50,22 @@ Nos volvemos a meter en la página del dominio, pulsamos la tecla F12 y buscamos
 <img width="606" height="114" alt="image" src="https://github.com/user-attachments/assets/a0d5c15f-2455-4fa9-8d3f-a1d242bf44a6" />
 	
 6. Redirecciona el contenido de la carpeta “prueba” hacia “prueba2”
+<img width="1067" height="100" alt="image" src="https://github.com/user-attachments/assets/25759eef-75bf-4308-baa9-184f9e2b7736" />
 
+Nos vamos al fichero de configuración de apache
 
-	
+<img width="1070" height="665" alt="image" src="https://github.com/user-attachments/assets/2296d3aa-5c96-452b-b008-fcc28ef8edea" />
+
+Añadimos la siguiente línea al final
+
 7. Es posible redireccionar tan solo una página en lugar de toda la carpeta. Pruébalo.
+<img width="1068" height="665" alt="image" src="https://github.com/user-attachments/assets/3d4439dc-593c-4c7f-a182-80c8a0030407" />
+
+En el mismo documento, ponemos la siguiente línea al final, guardamos y nos salimos
+
+<img width="976" height="53" alt="image" src="https://github.com/user-attachments/assets/24f8f53f-3f41-42ef-83bb-314b68092e32" />
+
+Y reiniciamos el servicio para que se apliquen los cambios
 	
 8. Usa la directiva userdir
 
@@ -86,8 +98,25 @@ Reiniciamos el servicio
 Y le damos permisos al usuario
 
 9. Usa la directiva alias para redireccionar a una carpeta dentro del directorio de usuario.
+<img width="686" height="105" alt="image" src="https://github.com/user-attachments/assets/dc05d66d-044b-4595-8378-d05e51d3d606" />
+
+Volvemos a ir al fichero de configuración apache
+
+<img width="1066" height="665" alt="image" src="https://github.com/user-attachments/assets/9a4304f1-afbb-4962-9049-e5dc8ce8a329" />
+
+Añadimos las siguientes líneas al final del documento, guardamos y cerramos
+
+<img width="653" height="37" alt="image" src="https://github.com/user-attachments/assets/84111a0c-6148-435f-9526-8d8e28aa6803" />
+
+Creamos el directorio, y añadimos ficheros en el
+
+<img width="978" height="53" alt="image" src="https://github.com/user-attachments/assets/6f8581b8-823b-4bc8-a7c4-b95676fe3cb7" />
+
+Reiniciamos el servicio
+
+Comprobamos con navegador
 	
-10. ¿Para qué sirve la directiva Options y dónde aparece. Comprueba si apache indexa los directorios. Si es así, ¿cómo lo desactivamos?
+11. ¿Para qué sirve la directiva Options y dónde aparece. Comprueba si apache indexa los directorios. Si es así, ¿cómo lo desactivamos?
 
 # Actividad 2.2
 ## Trabajando con scripts
