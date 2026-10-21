@@ -115,8 +115,21 @@ Creamos el directorio, y añadimos ficheros en el
 Reiniciamos el servicio
 
 Comprobamos con navegador
-	
-11. ¿Para qué sirve la directiva Options y dónde aparece. Comprueba si apache indexa los directorios. Si es así, ¿cómo lo desactivamos?
+
+10. ¿Para qué sirve la directiva Options y dónde aparece. Comprueba si apache indexa los directorios. Si es así, ¿cómo lo desactivamos?
+*Explicar teoria Options
+Si, apache indexa, rl directory /var/www, la prueba esta en /etc/apache2/apache2.conf
+<img width="1071" height="667" alt="image" src="https://github.com/user-attachments/assets/37b2460e-65de-46c8-9542-cd6dedeb3df5" />
+
+Aquí tenemos la prueba
+
+<img width="1066" height="670" alt="image" src="https://github.com/user-attachments/assets/1cb34d8f-23bb-4ab3-a291-ecf543f1fd13" />
+
+Modificamos la siguiente línea, simplemente le ponemos "-" a Indexes y "+" a FollowSymLinks, guardamos y nos salimos del documento
+
+<img width="751" height="148" alt="image" src="https://github.com/user-attachments/assets/b25be68c-856e-41f5-97fc-6fc9c3ea55e0" />
+
+Y luego reiniciamos el servicio Apache
 
 # Actividad 2.2
 ## Trabajando con scripts
