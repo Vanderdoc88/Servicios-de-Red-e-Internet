@@ -134,5 +134,29 @@ Y luego reiniciamos el servicio Apache
 # Actividad 2.2
 ## Trabajando con scripts
 1. Crea un script que añada un puerto de escucha en el fichero de configuración de Apache. El puerto se recibirá como parámetro en la llamada y se comprobará que no esté ya presente en el fichero de configuración
+<img width="758" height="117" alt="image" src="https://github.com/user-attachments/assets/96f57761-978d-4a92-b9a7-f734caf04749" />
+
+Vamos a empezar metiéndonos en el directorio /etc/apache2
+
+<img width="620" height="18" alt="image" src="https://github.com/user-attachments/assets/261d3d92-3292-45bd-bc29-b89518c5d74b" />
+
+Y creamos el siguiente fichero .sh
+
+<img width="871" height="557" alt="image" src="https://github.com/user-attachments/assets/fa12c15d-47da-46ea-b409-60d4afbef4de" />
+
+Este es mi shellscript, guardamos y cerramos.
+
+<img width="1009" height="132" alt="image" src="https://github.com/user-attachments/assets/4a168932-5c63-4011-a03d-d4aa41f5b970" />
+
+Ejecutamos el script, y vemos que se nos a añadido el puerto bien
+
 2. Crea un script que añada un nombre de dominio y una ip al fichero hosts. Debemos comprobar que no existe dicho dominio en el fichero hosts
+<img width="793" height="109" alt="image" src="https://github.com/user-attachments/assets/fd0ddf7a-4998-4bb1-a4c2-1dd2b457e466" />
+
+Nos salimos del directorio apache2, y en el directorio /etc creamos el fichero .sh (en el directorio /etc es donde se encuentra el fichero host.conf)
+
+<img width="811" height="451" alt="image" src="https://github.com/user-attachments/assets/da0d102e-4cca-425c-a0d2-2b12819be932" />
+
+Así sera nuestro script, guardamos y cerramos
+
 3. Crea un script que nos permita crear una página web con un título, una cabecera y un mensaje
