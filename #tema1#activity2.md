@@ -142,11 +142,11 @@ Vamos a empezar metiéndonos en el directorio /etc/apache2
 
 Y creamos el siguiente fichero .sh
 
-<img width="871" height="557" alt="image" src="https://github.com/user-attachments/assets/fa12c15d-47da-46ea-b409-60d4afbef4de" />
+<img width="877" height="411" alt="image" src="https://github.com/user-attachments/assets/890b4cff-8b3b-4def-8331-b4bdd4cc4b89" />
 
 Este es mi shellscript, guardamos y cerramos.
 
-<img width="1009" height="132" alt="image" src="https://github.com/user-attachments/assets/4a168932-5c63-4011-a03d-d4aa41f5b970" />
+<img width="675" height="112" alt="image" src="https://github.com/user-attachments/assets/11dc8680-95eb-4256-ad3f-c55e543da93f" />
 
 Ejecutamos el script, y vemos que se nos a añadido el puerto bien
 
