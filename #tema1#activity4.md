@@ -1,6 +1,6 @@
 ## Busca información sobre las siguientes directivas. Indica para que se usan y escribe un ejemplo que hayas encontrado.
 
-**<IfModule>**
+<IfModule>
 
 Se utiliza para condicionalmente ejecutar bloques de configuración según si un módulo específico de Apache está cargado o no. Esto es muy útil para evitar errores de inicio en el servidor si un módulo opcional está deshabilitado.
 
@@ -11,21 +11,21 @@ Ejemplo:
     RewriteRule ^old-page\.html$ /new-page.html [R=301,L]
 </IfModule>
 
-**LoadModule**
+LoadModule
 
   Carga un módulo u objeto compartido dinámico (DSO) en Apache al iniciar el servidor para añadir funcionalidades adicionales (como seguridad, compresión, reescritura de URLs, etc.).
 
   Ejemplo:
   LoadModule rewrite_module modules/mod_rewrite.so
   
-**Include**
+Include
 
 	Permite incluir otros ficheros de configuración dentro del fichero de configuración principal de Apache (httpd.conf o apache2.conf). Facilita la modularización y organización del código.
 
   Ejemplo: (Incluir todas las configuraciones de los hosts virtuales desde un directorio externo)
   Include conf/extra/httpd-vhosts.conf
   
-**<Directory>**
+<Directory>
 
 Envuelve un grupo de directivas de configuración que se aplicarán exclusivamente al directorio del sistema de ficheros indicado y a todos sus subdirectorios.
 
@@ -37,7 +37,7 @@ Ejemplo:
     Require valid-user
 </Directory>
 
-**<Files>**
+<Files>
 
 Aplica las directivas contenidas en su interior únicamente a ficheros específicos (coincidiendo con nombres de archivo o patrones con comodines), sin importar en qué directorio se encuentren.
 
@@ -46,7 +46,7 @@ Ejemplo: (Proteger el fichero de configuración de WordPress contra accesos web 
       Require all denied
 </Files>
 
-**<Location>**
+<Location>
 
 	A diferencia de <Directory> (que actúa sobre rutas físicas del disco), <Location> actúa sobre URLs (rutas web). Es ideal para aplicar directivas a endpoints o recursos lógicos.
 
@@ -56,7 +56,7 @@ Ejemplo: (Proteger el fichero de configuración de WordPress contra accesos web 
     Require ip 192.168.1.0/24
 </Location>
   
-**<VirtualHost>**
+<VirtualHost>
 
 Permite alojar múltiples sitios web (dominios o subdominios) en un mismo servidor físico, asignando configuraciones independientes (como la ruta raíz, logs o certificados SSL) a cada uno.
 
@@ -69,7 +69,7 @@ Ejemplo:
     CustomLog logs/misitio-access.log combined
 </VirtualHost>
 	
-**¿Qué son los ficheros .htaccess?**
+## ¿Qué son los ficheros .htaccess?
 Un fichero .htaccess (Hypertext Access) es un fichero de configuración distribuido que utiliza el servidor web Apache. Permite a los administradores o usuarios definir directivas de configuración de forma local para un directorio específico y todos sus subdirectorios, sin necesidad de modificar el fichero de configuración principal del servidor (httpd.conf).
 
 * Principales usos: *
