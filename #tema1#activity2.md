@@ -160,3 +160,26 @@ Nos salimos del directorio apache2, y en el directorio /etc creamos el fichero .
 Así sera nuestro script, guardamos y cerramos
 
 3. Crea un script que nos permita crear una página web con un título, una cabecera y un mensaje
+<img width="751" height="98" alt="image" src="https://github.com/user-attachments/assets/19f76e5a-80ef-4e1e-b15b-9c2db771364f" />
+
+Comenzamos creando el fichero .sh
+
+<img width="864" height="472" alt="image" src="https://github.com/user-attachments/assets/47a17f7a-b5f7-4928-9ae4-ec6079e1adcc" />
+
+Este es mi script, guardamos y nos salimos
+
+<img width="792" height="98" alt="image" src="https://github.com/user-attachments/assets/af771974-1baa-4dee-92b6-e5b91588a5ad" />
+
+Ejecutamos el script con el siguiente comando
+
+<img width="747" height="199" alt="image" src="https://github.com/user-attachments/assets/6fb2ca04-c7e7-4036-a9db-1189be357f95" />
+
+EL script que he realizado te va preguntando los distintos elementos que quieres en tu página
+
+<img width="987" height="536" alt="image" src="https://github.com/user-attachments/assets/5e7404e0-c793-4276-be9c-bee8449df639" />
+
+Se nos ha creado un archivo html a traves de ejecutar el script
+
+<img width="631" height="236" alt="image" src="https://github.com/user-attachments/assets/a9a40dd0-a1f8-4284-96cf-8b8f3deb9d5b" />
+
+Si nos metemos en el archivo, se nos va al navegador y abre directamente la página web
