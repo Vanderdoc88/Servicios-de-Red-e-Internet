@@ -50,3 +50,5 @@ Niega el acceso a todos
 **Se permita a "10.3.0.100/8" y no a "marisma.intranet"**
 
 <img width="1066" height="669" alt="image" src="https://github.com/user-attachments/assets/03723db0-e99b-4b74-aaf8-cc60807b23ae" />
+<img width="672" height="46" alt="image" src="https://github.com/user-attachments/assets/220ab132-1e4a-49ef-b4ec-4324c2defeb6" />
+
