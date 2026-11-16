@@ -20,22 +20,22 @@
 ## Escribe las expresiones regulares para los siguientes supuestos:
 
 **Directorios en /www/ cuyo nombre consista en tres dígitos.**
-\/www\/\d\d\d
+^/www/(.+)?[0-9]{3}
 
-Ficheros: *.gif, *.jpeg, *.jpg, *.png
+**Ficheros: .gif, .jpeg, .jpg, .png**
+.+\.(gif|jpe?g|png)$
 
+**Escribe una directiva para redireccionar todos los GIF a ficheros JPEG en otro servidor**
+RedirectMatch (.+)\gif$ http://other.example.com/$1.jpg
 
-Escribe una directiva para redireccionar todos los GIF a ficheros JPEG en otro servidor
+**Ficheros cuyo nombre corresponda con Números enteros y decimales**
+(\d+\.)?\d+
 
+**Números de teléfono en el formato Americano: 123-123-1234**
+\b\d{3}-?\d{3}-?\d{4}\b
 
-Números enteros y decimales
-
-
-Números de teléfono en el formato Americano: 123-123-1234
-
-
-Palabras
-
+**Palabras**
+[a-zA-Z]+
 
 Códigos hexadecimales de color de 24 o 32 bits
 
@@ -55,8 +55,8 @@ Números reales
 Número reales con exponente
 
 
-Email
-
+**Email**
+\b[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}\b
 
 Números del 0 a 255
 
