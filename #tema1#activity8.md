@@ -60,3 +60,26 @@ Lo abrimos
 Y modificamos lo siguiente para el segundo dominio, de tal forma que quede asi, luego guardamos y cerramos
 
 Paso 5: Habilita los nuevos archivos virtual host
+
+<img width="1258" height="331" alt="image" src="https://github.com/user-attachments/assets/b138a7e4-513a-43b8-a53c-2f6658d495e1" />
+
+Los habilitamos con la herramienta a2ensite, luego, reiniciamos el servicio apache para que los cambios surgan efecto
+
+Paso 6: Configura archivos locales
+
+<img width="750" height="93" alt="image" src="https://github.com/user-attachments/assets/e2161d9d-213c-49b2-baef-ec92c3817000" />
+
+Vamos a meternos en el archivo local para editarlo
+
+<img width="890" height="265" alt="image" src="https://github.com/user-attachments/assets/376f8c41-5acf-4955-803b-3e68c59a7991" />
+
+Agregamos las 2 siguientes lineas al archivo, guardamos y nos salimos
+
+Paso 7: Prueba tus resultados
+
+<img width="1382" height="181" alt="image" src="https://github.com/user-attachments/assets/cc8e65b5-7518-4c85-aed0-af9620e72bdf" />
+<img width="1377" height="181" alt="image" src="https://github.com/user-attachments/assets/f5edd275-5c03-4cb0-a43b-fab4337521e6" />
+
+Al escribir en el navegador el nombre de los dominios, nos aparece que están activos
+
+
